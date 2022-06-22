@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    border-radius: 70px;
+}
+
+.form .fm-inp {
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    font-size: 1.2em;
+}
+
+.btn-search {
+    border-radius: 20px;
+    margin-left: 10px;
+    display: block;
+    border: none;
+    background-color: white;
+}
+
+.btn-search .fas {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.form .fm-inp:focus {
+    outline: none;
+}
